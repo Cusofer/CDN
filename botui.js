@@ -27,7 +27,7 @@ botui.message.bot({
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "这里是 Cusofer"
+        content: "这里是 Cusnd"
     })
 }).then(function() {
     return botui.message.bot({
@@ -70,12 +70,17 @@ var other = function() {
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "目前是一名在校初中生"
+            content: "目前是一名在校学生"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "不过还是比较熟悉手机刷机、主机DIY与系统安装"
+            content: "不过还是比较熟悉摸鱼，背诵小平老师的经典语录"
+        })
+    }).then(function() {
+        return botui.message.bot({
+            delay: 1500,
+            content: "“一道题还要我讲好多遍？同学们？”"
         })
     }).then(function() {
         return botui.message.bot({
@@ -86,7 +91,7 @@ var other = function() {
         return botui.action.button({
             delay: 1500,
             action: [{
-                text: "为什么叫 Cusofer 呢？ 🤔",
+                text: "为什么叫 Cusnd 呢？ 🤔",
                 value: "next"
             }]
         })
